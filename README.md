@@ -1,17 +1,17 @@
-# This is heading 1
-- Project or Program Name
-## This is heading 3
-- Author Name : Peter Njukia {chunuz}
-### This is heading 3
-- Description of project:
-### This is heading 3
-- Project setup instructions
-### This is heading 3
-- link to live site on GitHub Pages
-https://github.com/chunuz/portfolio-landing-page.git
-###### This is heading 6
-- copyright and license information
-- Copyright@2022 Full Reserved Peter Njukia 
+# Project or Program Name
+- Portfolio Landing Page
+## Author Name
+- Peter Njukia {chunuz}
+### Description of project
+- This is my Career Profile Page. 
+- You are welcome to view my professional background. i.e My Education and job experience. A paragraph on why I decided to take a class on programming is also added.
+Finally you will view my current interests, hobbies and skills
+### Project setup instructions
+- 
+### link to live site on GitHub Pages
+- https://github.com/chunuz/portfolio-landing-page.git
+###### copyright and license information
+- @2022 Copyright Full Reserved: $Peter Njukia 
 
 
 
