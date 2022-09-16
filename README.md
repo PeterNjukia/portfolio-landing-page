@@ -3,7 +3,7 @@
 ## Author Name
 - Peter Njukia {chunuz}
 ### Description of project
-- This is my Career Profile Page. 
+- This is my career profile page. 
 - You are welcome to view my professional background. 
 - This includes my Education and job experience. 
 - A paragraph on why I decided to take a class on programming is also added.
