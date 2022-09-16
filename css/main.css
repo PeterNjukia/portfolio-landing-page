@@ -4,12 +4,15 @@
     border: 0px;
 }
 .bdy{
-    display: grid;
-    background-color:aliceblue ;
+    display: block;
+    background-color:rgb(191, 193, 196) ;
     border: salmon; 
     margin: 10px;
 }
 
+.face{
+    width: 50px;
+}
 .header{
     /*background-color: cadetblue;
     display: block;
@@ -65,6 +68,25 @@ padding: 5px;
     border: solid teal;
     margin: 5px;
     padding: 2px;
-    display: grid repeat(3 1fr);
+    display: inline-block;
     width: auto;
+}
+
+.footer{
+    align-items: center;
+    display: inline-block;
+
+}
+
+/*
+.contacts p{
+    display: block;
+}
+*/
+.contacts li{
+    display: inline-block;
+    margin: 5px;
+    border: solid seagreen;
+    padding: 2px;
+    width: 10px;
 }
