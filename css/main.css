@@ -1,39 +1,35 @@
-.container{
+
+body{
     display: grid;
-    gap: 5px;
-    /*grid-template-rows: 100px 100px;
-    grid-template-columns: 100px 100px;*/
-    height: 180vh;
-    margin: 0px;
+    gap: 1em;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows:8% 5% auto 10% 16% 16%;
+    height: 100vh;
+    margin:0px;
     border:solid antiquewhite;
     grid-template-areas: 
-      "b1 b1 b1 b1   b1 b1 b1 b1   b1 b1 b1 b1"
-      "b3 b3 b3 b3   b3 b3 b3 b3   b3 b3 b3 b3"
-      "b3 b3 b3 b3   b3 b3 b3 b3   b3 b3 b3 b3"
-      "b3 b3 b3 b3   b3 b3 b3 b3   b3 b3 b3 b3"
-      "b3 b3 b3 b3   b3 b3 b3 b3   b3 b3 b3 b3"
-      "b2 b2 b2 b2   b5 b5 b5 b5   b5 b5 b5 b5"
-      "b2 b2 b2 b2   b5 b5 b5 b5   b5 b5 b5 b5"
-      "b4 b4 b4 b4   b6 b6 b6 b6   b6 b6 b6 b6"
-      "b4 b4 b4 b4   b6 b6 b6 b6   b6 b6 b6 b6"
-      "b4 b4 b4 b4   b7 b7 b7 b7   b7 b7 b7 b7"
-      "b4 b4 b4 b4   b7 b7 b7 b7   b7 b7 b7 b7"
-      "b8 b8 b8 b8   b8 b8 b8 b8   b8 b8 b8 b8"
-     
+    "b1 b1 b1 b1"
+    "b7 b7 b7 b7"
+    "b3 b3 b3 b3"
+    "b2 b5 b5 b5"
+    "b4 b6 b6 b6"
+    "b8 b8 b8 b8"
      
      ;
 }
   .b1{
     grid-area:b1;
-    background-color:rgb(209, 204, 204);    
+    background-color:rgb(209, 204, 204);
+       
   }
   .b2{
     grid-area:b2;
     background-color:silver;
+     
   }
   .b3{
     grid-area:b3;
-    background-color:beige;
+    background-color:rgb(202, 202, 29);
     
     
   }
