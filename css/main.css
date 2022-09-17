@@ -70,6 +70,7 @@ body{
   .b8{
     grid-area:b8;
     background-color:rgb(165, 73, 145);
+    justify-items: center;
   }
 
   .b8 p{
@@ -78,9 +79,11 @@ body{
   }
 
   
-.pages{
+.icons{
   height: 40px;
   width: 40px;
   border: 0;
-  margin: 10px;
-  padding: 5px;
+  margin: 5px;
+  padding: 2px;
+  display: inline;
+}
