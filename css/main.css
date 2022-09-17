@@ -1,9 +1,9 @@
 
 body{
     display: grid;
-    gap: 1em;
+    gap: 0.1em;
     grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows:8% 5% auto 10% 16% 16%;
+    grid-template-rows:8% 3% auto 10% 16% 16%;
     height: 100vh;
     margin:0px;
     border:solid antiquewhite;
@@ -55,8 +55,18 @@ body{
   .b7{
     grid-area:b7;
     background-color:rgb(155, 180, 66);
+    border-left: 2px dotted gold ;
   }
-  
+
+  .b7 p{
+    text-align: center;
+    font-size: small;
+  }
+  /*
+  .navbar{
+    display: inline;
+    border-left: 2px dotted gold ;
+  }*/
   .b8{
     grid-area:b8;
     background-color:rgb(165, 73, 145);
@@ -66,3 +76,11 @@ body{
     text-align: center;
     font-size: small;
   }
+
+  
+.pages{
+  height: 40px;
+  width: 40px;
+  border: 0;
+  margin: 10px;
+  padding: 5px;
