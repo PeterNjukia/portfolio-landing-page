@@ -1,9 +1,9 @@
 .container{
     display: grid;
     gap: 5px;
-    grid-template-rows: 100px 100px;
-    grid-template-columns: 100px 100px;
-    height: 100vh;
+    /*grid-template-rows: 100px 100px;
+    grid-template-columns: 100px 100px;*/
+    height: 180vh;
     margin: 0px;
     border:solid antiquewhite;
     grid-template-areas: 
@@ -12,24 +12,20 @@
       "b3 b3 b3 b3   b3 b3 b3 b3   b3 b3 b3 b3"
       "b3 b3 b3 b3   b3 b3 b3 b3   b3 b3 b3 b3"
       "b3 b3 b3 b3   b3 b3 b3 b3   b3 b3 b3 b3"
-      "b3 b3 b3 b3   b3 b3 b3 b3   b3 b3 b3 b3"
-      "b3 b3 b3 b3   b3 b3 b3 b3   b3 b3 b3 b3"
-      "b3 b3 b3 b3   b3 b3 b3 b3   b3 b3 b3 b3"
-      "b3 b3 b3 b3   b3 b3 b3 b3   b3 b3 b3 b3"
-      "b3 b3 b3 b3   b3 b3 b3 b3   b3 b3 b3 b3"
       "b2 b2 b2 b2   b5 b5 b5 b5   b5 b5 b5 b5"
       "b2 b2 b2 b2   b5 b5 b5 b5   b5 b5 b5 b5"
-      "b2 b2 b2 b2   b6 b6 b6 b6   b6 b6 b6 b6"
-      "b2 b2 b2 b2   b6 b6 b6 b6   b6 b6 b6 b6"
-      "b2 b2 b2 b2   b7 b7 b7 b7   b7 b7 b7 b7"
-      "b2 b2 b2 b2   b7 b7 b7 b7   b7 b7 b7 b7"
+      "b4 b4 b4 b4   b6 b6 b6 b6   b6 b6 b6 b6"
+      "b4 b4 b4 b4   b6 b6 b6 b6   b6 b6 b6 b6"
+      "b4 b4 b4 b4   b7 b7 b7 b7   b7 b7 b7 b7"
+      "b4 b4 b4 b4   b7 b7 b7 b7   b7 b7 b7 b7"
       "b8 b8 b8 b8   b8 b8 b8 b8   b8 b8 b8 b8"
-      "b8 b8 b8 b8   b8 b8 b8 b8   b8 b8 b8 b8";
+     
+     
+     ;
 }
   .b1{
     grid-area:b1;
-    background-color:rgb(209, 204, 204);
-    margin-top: 0px;
+    background-color:rgb(209, 204, 204);    
   }
   .b2{
     grid-area:b2;
@@ -38,17 +34,17 @@
   .b3{
     grid-area:b3;
     background-color:beige;
-    padding: 0px;
+    
     
   }
 .face{
     
 }
-  /*
+  
   .b4{
     grid-area:b4;
     background-color:magenta;
-  }*/
+  }
   
   .b5{
     grid-area:b5;
