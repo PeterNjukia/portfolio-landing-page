@@ -7,6 +7,11 @@ body{
     height: 100vh;
     margin:0px;
     border:solid antiquewhite;
+    background-image: url(/images/developer0.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: contain;
     grid-template-areas: 
     "b1 b1 b1 b1"
     "b7 b7 b7 b7"
@@ -19,17 +24,26 @@ body{
 }
   .b1{
     grid-area:b1;
-    background-color:rgb(209, 204, 204);
+    /* background-color:rgb(209, 204, 204); */
        
   }
   .b2{
     grid-area:b2;
-    background-color:silver;
+    /* background-color:silver; */
      
   }
   .b3{
     grid-area:b3;
-    background-color:rgb(202, 202, 29);
+    /* background-image: url(/images/face.jpg); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: contain;
+    /* background-color: #cccccc; */
+    justify-content: stretch;
+    
+    
+    
     
     
   }
@@ -39,22 +53,22 @@ body{
   
   .b4{
     grid-area:b4;
-    background-color:magenta;
+    /* background-color:magenta; */
   }
   
   .b5{
     grid-area:b5;
-    background-color:skyblue;
+    /* background-color:skyblue; */
   }
   
   .b6{
     grid-area:b6;
-    background-color:rgb(86, 201, 195);
+    /* background-color:rgb(86, 201, 195); */
   }
   
   .b7{
     grid-area:b7;
-    background-color:rgb(155, 180, 66);
+    /* background-color:rgb(155, 180, 66); */
     border-left: 2px dotted gold ;
   }
 
@@ -69,7 +83,7 @@ body{
   }*/
   .b8{
     grid-area:b8;
-    background-color:rgb(165, 73, 145);
+    /* background-color:rgb(165, 73, 145); */
     justify-items: center;
   }
 
