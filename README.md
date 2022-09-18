@@ -14,9 +14,6 @@
 - images folder contains pictures relevant to my portfolio
 ### Link to live site on GitHub Pages
 - https://chunuz.github.io/portifolio_landing_page/
-
-- https://github.com/chunuz/portfolio-landing-page.git
-
 ###### Copyright and License information
 - @2022 Copyright Full Reserved: $Peter Njukia 
 
