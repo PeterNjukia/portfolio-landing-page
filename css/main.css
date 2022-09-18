@@ -3,11 +3,11 @@ body{
     display: grid;
     gap: 0.1em;
     grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows:8% 3% auto 10% 16% 16%;
+    grid-template-rows:4% 6% 16% 10% 16% 16%;
     height: 100vh;
     margin: 0px;
     border:solid antiquewhite;
-    background-color: beige;
+    background-color: grey;
     background-image: url(/images/faceb16.webp);
     background-position: center;
     background-repeat: no-repeat;
@@ -25,7 +25,7 @@ body{
 }
   .b1{
     grid-area:b1;
-    background-color:rgb(209, 204, 204);
+    background-color:grey; 
        
   }
   .b2{
@@ -78,7 +78,7 @@ body{
   }
 
   .b7 p{
-    padding: 10px;
+    padding-top:50px;
     text-align: center;
     font-size: small;
     text-decoration: darkgoldenrod;
