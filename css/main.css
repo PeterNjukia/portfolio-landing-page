@@ -5,9 +5,10 @@ body{
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows:8% 3% auto 10% 16% 16%;
     height: 100vh;
-    margin:0px;
+    margin: 0px;
     border:solid antiquewhite;
-    background-image: url(/images/developer0.jpg);
+    background-color: beige;
+    background-image: url(/images/faceb16.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -24,7 +25,7 @@ body{
 }
   .b1{
     grid-area:b1;
-    /* background-color:rgb(209, 204, 204); */
+    background-color:rgb(209, 204, 204);
        
   }
   .b2{
@@ -34,13 +35,13 @@ body{
   }
   .b3{
     grid-area:b3;
-    /* background-image: url(/images/face.jpg); */
+    /* background-image: url(/images/face.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-size: contain;
-    /* background-color: #cccccc; */
-    justify-content: stretch;
+    background-color: #cccccc; 
+    justify-content: stretch; */
     
     
     
@@ -59,11 +60,15 @@ body{
   .b5{
     grid-area:b5;
     /* background-color:skyblue; */
+    text-align: center;
+    font-size: large;
   }
   
   .b6{
     grid-area:b6;
     /* background-color:rgb(86, 201, 195); */
+    text-align: center;
+    font-size: large;
   }
   
   .b7{
@@ -73,8 +78,10 @@ body{
   }
 
   .b7 p{
+    padding: 10px;
     text-align: center;
     font-size: small;
+    text-decoration: darkgoldenrod;
   }
   /*
   .navbar{
@@ -99,5 +106,5 @@ body{
   border: 0;
   margin: 5px;
   padding: 2px;
-  display: inline;
+  display: inline-block;
 }
