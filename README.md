@@ -13,7 +13,7 @@
 - main.css file contains the stylesheets
 - images folder contains pictures relevant to my portfolio
 ### Link to live site on GitHub Pages
-- https://chunuz.github.io/portifolio-landing-page/
+- https://chunuz.github.io/portfolio-landing-page/
 ###### Copyright and License information
 - @2022 Copyright Full Reserved: $Peter Njukia 
 
