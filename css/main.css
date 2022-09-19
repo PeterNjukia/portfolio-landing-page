@@ -61,14 +61,14 @@ body{
     grid-area:b5;
     /* background-color:skyblue; */
     text-align: center;
-    font-size: large;
+    font-size: small;
   }
   
   .b6{
     grid-area:b6;
     /* background-color:rgb(86, 201, 195); */
     text-align: center;
-    font-size: large;
+    font-size: small;
   }
   
   .b7{
@@ -78,16 +78,14 @@ body{
   }
 
   .b7 p{
+    /* display: inline; */
     padding-top:50px;
     text-align: center;
     font-size: small;
     text-decoration: darkgoldenrod;
+    /* border-left: 2px dotted gold ; */
   }
-  /*
-  .navbar{
-    display: inline;
-    border-left: 2px dotted gold ;
-  }*/
+
   .b8{
     grid-area:b8;
     /* background-color:rgb(165, 73, 145); */
@@ -107,4 +105,8 @@ body{
   margin: 5px;
   padding: 2px;
   display: inline-block;
+}
+
+.About p{
+  text-align: left;
 }
