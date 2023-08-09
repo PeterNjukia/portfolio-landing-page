@@ -21,7 +21,7 @@
 - Run with live-server
 
 ### Link to live site on GitHub Pages
-- https://chunuz.github.io/portfolio-landing-page/
+- https://PeterNjukia.github.io/portfolio-landing-page/
 
 ###### Copyright and License information
 - @2022 Copyright Full Reserved: $Peter Njukia 
